@@ -19,5 +19,15 @@ button{
     display: flex;
     margin-top: 10px;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: "Shantell Sans";
+    padding: 10px;
+    border: none;
+}
+
+.container{
+    cursor: pointer;
 }
