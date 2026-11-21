@@ -11,11 +11,12 @@ button.addEventListener("click", (event) => {
     // using if-else statment to deal with user entering Number less than 0
     // or greater than 100.
     if (gridSize > 100){
-        prompt("Enter a valid number between 1 & 100");
+        alert("Enter a valid number between 1 & 100");
     }
     else if (gridSize === 0){
-        prompt("Enter a valid number between 1 & 100");
+        alert("Enter a valid number between 1 & 100");
     }
+    console.log(`gridSize is equal to: ${gridSize}`);
 })
 
 // selecting the container div.
