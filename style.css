@@ -6,11 +6,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid black;
+    height: 99vh;
 }
 
 h1{
     display: flex;
-    margin-top: 30px;
+    margin-top: 10px;
     justify-content: center;
     font-family: "Shantell Sans";
 }
@@ -30,4 +32,8 @@ button{
 
 .container{
     cursor: pointer;
+    height: 70vh;
+    width: 100vh;
+    border: 2px solid black;
+    margin-top: 10px;
 }
